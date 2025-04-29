@@ -22,6 +22,6 @@
       }
     ]
   },
-  "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx", "src/lib/i18n/I18nProvider.jsx"],
   "exclude": ["node_modules"]
 }

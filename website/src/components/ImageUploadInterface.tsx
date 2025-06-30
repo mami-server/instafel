@@ -33,7 +33,7 @@ export default function ImageUploadInterface({
   onFileRemove,
   maxFiles = 10,
   maxFileSize = 5 * 1024 * 1024, // 5MB default
-  acceptedTypes = ["image/png", "image/jpeg", "image/jpg"],
+  acceptedTypes = ["image/png", "image/jpeg", "image/jpg", "image/gif"],
   initialFiles = [],
   disabled = false,
 }: ImageUploadProps) {
